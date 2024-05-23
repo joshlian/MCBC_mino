@@ -1,11 +1,9 @@
-import { Component } from 'react';
+import { PageRoutes } from './routes';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-     <h2>MCBC MINO 2</h2>
-    </div>
+    <>
+      <PageRoutes />
+    </>
   );
 }
-
-export default App;
