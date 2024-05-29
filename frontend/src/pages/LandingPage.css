@@ -15,14 +15,32 @@
   .custom-button {
     background-color: rgb(51, 48, 48); /* Button background color */
     color: white; /* Text color */
-    padding: 10px 20px; /* Padding */
+    padding: 3px 20px; /* Padding */
     border: none; /* Remove border */
     border-radius: 5px; /* Rounded corners */
     font-size: 20px; /* Font size */
     cursor: pointer; /* Cursor style */
     transition: background-color 0.3s; /* Smooth transition on hover */
+    margin-top: 20px;
 }
 
 .custom-button:hover {
     background-color: #4f5458; /* Darker color on hover */
+}
+
+.info-box {
+  background-color: rgb(240, 241, 243);
+  border: solid black;
+  border-width: 3px;
+  border-radius: 5px;
+  font-size: 30px;
+  color: rgb(224, 16, 16);
+  font-style:oblique;
+  text-shadow: #4f5458;
+}
+.sub-info-box{
+  font-size: 20px;
+  font-style: normal;
+  text-align: left;
+  color: rgb(0, 0, 0); 
 }
