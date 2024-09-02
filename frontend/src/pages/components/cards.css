@@ -1,0 +1,106 @@
+.cards-wrapper {
+  display: flex;
+  gap: 60px; /* Add space between the cards */
+  justify-content: center; /* Center the cards horizontally */
+}
+
+.card-container {
+  width: 18rem;
+  border-radius: 1rem;
+  box-shadow: 0px 10px 8px rgb(83, 85, 89);
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  background-color: rgb(255, 255, 255);
+  margin-top: 25px;
+}
+
+.image {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+}
+
+.header {
+  margin: 3px;
+  color: rgb(0, 0, 0);
+}
+
+.desc {
+  margin: 3px;
+}
+
+.custom-button {
+    background-color:  rgb(126, 56, 56); /* Button background color */
+    color: white; /* Text color */
+    padding: 3px 20px; /* Padding */
+    border: none; /* Remove border */
+    border-radius: 5px; 
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    font-size: 20px; /* Font size */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+    margin-top: 10px;
+  }
+
+  .custom-button:hover {
+    background-color: #621313; /* Darker color on hover */
+  }
+
+  /*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   Pastors    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+  .pastor-card-container {
+    width: 18rem;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 8px rgb(83, 85, 89);
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    margin-top: 25px;
+  }
+  .pastor-custom-button {
+    background-color: rgb(126, 56, 56); /* Button background color */
+    color: white; /* Text color */
+    padding: 3px 20px; /* Padding */
+    border: none; /* Remove border */
+    border-radius: 5px; 
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    font-size: 20px; /* Font size */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+    margin-top: 10px;
+  }
+  .pastor-custom-button:hover {
+    background-color: #621313; /* Darker color on hover */
+  }
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   Leaders    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+  .leader-card-container {
+    width: 18rem;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 8px rgb(83, 85, 89);
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    margin-top:25px;
+  }
+  .leader-custom-button {
+    background-color: rgb(126, 56, 56); /* Button background color */
+    color: white; /* Text color */
+    padding: 3px 20px; /* Padding */
+    border: none; /* Remove border */
+    border-radius: 5px; 
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    font-size: 20px; /* Font size */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+    margin-top: 10px;
+  }
+  .leader-custom-button:hover {
+    background-color: #621313; /* Darker color on hover */
+  }

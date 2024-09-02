@@ -1,46 +1,17 @@
 .LandingPage {
-    text-align: center;
-  }
-    
-.LandingPage-header {
-    background-color: #6199db;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-  .custom-button {
-    background-color: rgb(51, 48, 48); /* Button background color */
-    color: white; /* Text color */
-    padding: 3px 20px; /* Padding */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 20px; /* Font size */
-    cursor: pointer; /* Cursor style */
-    transition: background-color 0.3s; /* Smooth transition on hover */
-    margin-top: 20px;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.custom-button:hover {
-    background-color: #4f5458; /* Darker color on hover */
+.title {
+  text-align: center;
+  color: rgb(0, 0, 0); /* Text color */
+  font-size: 60px; /* Font size */
+  font-weight: bold; /* Use 'font-weight' instead of 'font:bolder;' */
+  font-style: italic; /* Use 'italic' instead of 'oblique' */
+  text-shadow: 2px 2px 4px #3879ae; /* Adjust the text shadow for better visibility */
 }
 
-.info-box {
-  background-color: rgb(240, 241, 243);
-  border: solid black;
-  border-width: 3px;
-  border-radius: 5px;
-  font-size: 30px;
-  color: rgb(224, 16, 16);
-  font-style:oblique;
-  text-shadow: #4f5458;
-}
-.sub-info-box{
-  font-size: 20px;
-  font-style: normal;
-  text-align: left;
-  color: rgb(0, 0, 0); 
-}
